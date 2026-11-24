@@ -1,0 +1,62 @@
+[
+  {
+    "id": "cue-send",
+    "title": "Headphone mix independent of the fader",
+    "text": "For a performer’s headphone mix, use a pre-fader auxiliary send. Changing the main channel fader then leaves the cue level alone. Verify which mute and insert stages still affect that send."
+  },
+  {
+    "id": "delay",
+    "title": "Echo only during software monitoring",
+    "text": "A delayed double while recording often means direct monitoring and the DAW return are both audible. Listen to one path at a time. For the DAW path, a smaller buffer can reduce monitoring latency."
+  },
+  {
+    "id": "polarity",
+    "title": "Two microphones lose bass when combined",
+    "text": "Audition the microphones individually, then sum them to mono. Compare polarity and arrival time. Reversing polarity can help some frequency bands; moving one microphone changes the time difference."
+  },
+  {
+    "id": "clock",
+    "title": "Clicks on a digital audio link",
+    "text": "On a digital link, set both devices to the same sample rate and select one clock master. Confirm the receiver reports clock lock. A clock mismatch can cause intermittent clicks even below clipping level."
+  },
+  {
+    "id": "stereo",
+    "title": "Mono compatibility of a stereo mix",
+    "text": "Check the stereo bus in mono. Wide decorrelated effects can cancel during summing. Compare the dry centre with the widened return before reducing stereo width."
+  },
+  {
+    "id": "headroom",
+    "title": "Clipping before the channel fader",
+    "text": "If the input converter clips, lowering the DAW fader only makes the distorted recording quieter. Reduce input gain and record a new take. Leave peak headroom for the loudest passage."
+  },
+  {
+    "id": "reverb",
+    "title": "Parallel reverb return level",
+    "text": "On a reverb return shared by sends, set the effect wet-only to avoid duplicating the dry signal. Balance the amount with each send and the return fader."
+  },
+  {
+    "id": "tempo",
+    "title": "Time-based effects and song tempo",
+    "text": "A quarter note lasts 60000 divided by BPM milliseconds. Multiply by 1.5 for a dotted quarter. Listen to the repeats against the groove before printing them."
+  },
+  {
+    "id": "automation",
+    "title": "Writing fader moves over existing automation",
+    "text": "Use read mode to play existing automation. Touch writes while the control is held and then returns to the previous lane. Check the automation mode before another playback pass."
+  },
+  {
+    "id": "export",
+    "title": "Exporting tails after the final region",
+    "text": "Extend the render range beyond the final audio region until the reverb and delay decay. Check the exported file's ending rather than only the timeline preview."
+  },
+  {
+    "id": "gain",
+    "title": "Matching gain for an effect comparison",
+    "text": "Match perceived output loudness between processed and bypassed versions. Switch between them on the same passage. A louder output can bias the comparison."
+  },
+  {
+    "id": "archive",
+    "title": "Collecting referenced media for transfer",
+    "text": "Collect external audio into the session folder and include it in the transfer. Open the copy from a different location and verify playback before archiving."
+  }
+]

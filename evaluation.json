@@ -1,0 +1,98 @@
+[
+  {
+    "query": "The singer's headphones get quieter when I move the house fader.",
+    "expected": "cue-send"
+  },
+  {
+    "query": "How can the cue mix ignore my front-of-house level changes?",
+    "expected": "cue-send"
+  },
+  {
+    "query": "I hear my voice twice while tracking with headphones.",
+    "expected": "delay"
+  },
+  {
+    "query": "Why is the live take followed by a short slap only while recording?",
+    "expected": "delay"
+  },
+  {
+    "query": "Two drum mics sound rich solo but thin together.",
+    "expected": "polarity"
+  },
+  {
+    "query": "Where did the low end go when I combined both microphones?",
+    "expected": "polarity"
+  },
+  {
+    "query": "There are ticks on my digital transfer although levels are low.",
+    "expected": "clock"
+  },
+  {
+    "query": "How do I stop random pops between two digitally connected devices?",
+    "expected": "clock"
+  },
+  {
+    "query": "My wide synth disappears when I play the mix through one speaker.",
+    "expected": "stereo"
+  },
+  {
+    "query": "Which check shows whether widening survives a mono sum?",
+    "expected": "stereo"
+  },
+  {
+    "query": "The waveform is already flat topped even with my track fader down.",
+    "expected": "headroom"
+  },
+  {
+    "query": "How do I stop overload while capturing the loudest verse?",
+    "expected": "headroom"
+  },
+  {
+    "query": "My vocal gets louder and drier when I add an effects return.",
+    "expected": "reverb"
+  },
+  {
+    "query": "Should a shared reverb bus include the original dry sound?",
+    "expected": "reverb"
+  },
+  {
+    "query": "How do I calculate the milliseconds for a dotted quarter echo?",
+    "expected": "tempo"
+  },
+  {
+    "query": "What delay time should I start from when I know the BPM?",
+    "expected": "tempo"
+  },
+  {
+    "query": "Why did playing the session overwrite my old volume movements?",
+    "expected": "automation"
+  },
+  {
+    "query": "Which automation mode returns when I release the fader?",
+    "expected": "automation"
+  },
+  {
+    "query": "The final echo is chopped off in the bounced file.",
+    "expected": "export"
+  },
+  {
+    "query": "How can I keep the room decay after the last note in my export?",
+    "expected": "export"
+  },
+  {
+    "query": "How do I audition a compressor without preferring the louder version?",
+    "expected": "gain"
+  },
+  {
+    "query": "What should match when comparing bypassed and processed audio?",
+    "expected": "gain"
+  },
+  {
+    "query": "My collaborator opens the project and all the samples are missing.",
+    "expected": "archive"
+  },
+  {
+    "query": "How should I pack a session that references recordings on another disk?",
+    "expected": "archive"
+  }
+]
